@@ -1,0 +1,30 @@
+0:000> wt -l 4
+Tracing RstrtMgr!RmShutdown to return address 00007ff6`614d2253
+    6     0 [  0] RstrtMgr!RmShutdown
+    7     0 [  1]   RstrtMgr!GetSession
+   10     0 [  2]     ntdll!RtlEnterCriticalSection
+   14    10 [  1]   RstrtMgr!GetSession
+   19     0 [  2]     ntdll!RtlLeaveCriticalSection
+   20    29 [  1]   RstrtMgr!GetSession
+   12    49 [  0] RstrtMgr!RmShutdown
+   16     0 [  1]   RstrtMgr!CRestartManager::ShutdownApplications
+   10     0 [  2]     ntdll!RtlEnterCriticalSection
+   28    10 [  1]   RstrtMgr!CRestartManager::ShutdownApplications
+    9     0 [  2]     RstrtMgr!CRestartManager::_RMWinSqmSetDWORD
+    1     0 [  3]       ntdll!LdrQueryModuleInfoLocalLoaderLock32
+   20     1 [  2]     RstrtMgr!CRestartManager::_RMWinSqmSetDWORD
+   34    31 [  1]   RstrtMgr!CRestartManager::ShutdownApplications
+    9     0 [  2]     RstrtMgr!CRestartManager::_RMWinSqmSetDWORD
+    1     0 [  3]       ntdll!LdrQueryModuleInfoLocalLoaderLock32
+   20     1 [  2]     RstrtMgr!CRestartManager::_RMWinSqmSetDWORD
+   36    52 [  1]   RstrtMgr!CRestartManager::ShutdownApplications
+   15     0 [  2]     RstrtMgr!CRestartManager::SQMRecordRegisteredItems
+    4     0 [  3]       RstrtMgr!operator new
+    6     0 [  4]         RstrtMgr!GetHeapHandle
+   10     6 [  3]       RstrtMgr!operator new
+   22     0 [  3]       ntdll!RtlAllocateHeap
+   61     0 [  3]       ntdll!RtlpAllocateHeapInternal
+   50     0 [  4]         ntdll!RtlpAllocateHeap
+   88    50 [  3]       ntdll!RtlpAllocateHeapInternal
+   22   176 [  2]     RstrtMgr!CRestartManager::SQMRecordRegisteredItems
+    1     0 [  3]       RstrtMgr!memset

@@ -1,0 +1,2390 @@
+0:000> wt -l 5
+Tracing cmd!MakeHardLink to return address 00007ff6`2035186e
+    6     0 [  0] cmd!MakeHardLink
+   12     0 [  1]   cmd!GetFullPath
+    5     0 [  2]     KERNELBASE!GetFullPathNameW
+   15     0 [  3]       ntdll!RtlGetFullPathName_UEx
+  122     0 [  4]         ntdll!RtlInitUnicodeStringEx
+   25   122 [  3]       ntdll!RtlGetFullPathName_UEx
+   60     0 [  4]         ntdll!RtlGetFullPathName_Ustr
+    6     0 [  5]           ntdll!memset
+   67     6 [  4]         ntdll!RtlGetFullPathName_Ustr
+  166     0 [  5]           ntdll!RtlpIsDosDeviceName_Ustr
+   71   172 [  4]         ntdll!RtlGetFullPathName_Ustr
+   25     0 [  5]           ntdll!RtlDetermineDosPathNameType_Ustr
+  123   197 [  4]         ntdll!RtlGetFullPathName_Ustr
+    6     0 [  5]           ntdll!_security_check_cookie
+  132   203 [  4]         ntdll!RtlGetFullPathName_Ustr
+   37   457 [  3]       ntdll!RtlGetFullPathName_UEx
+   12   494 [  2]     KERNELBASE!GetFullPathNameW
+   18   506 [  1]   cmd!GetFullPath
+    7     0 [  2]     cmd!mkstr
+    3     0 [  3]       KERNELBASE!GetProcessHeap
+   12     3 [  2]     cmd!mkstr
+   22     0 [  3]       ntdll!RtlAllocateHeap
+   61     0 [  3]       ntdll!RtlpAllocateHeapInternal
+   40     0 [  4]         ntdll!RtlpAllocateHeap
+  113     0 [  5]           ntdll!RtlDebugAllocateHeap
+   50   113 [  4]         ntdll!RtlpAllocateHeap
+   88   163 [  3]       ntdll!RtlpAllocateHeapInternal
+   25   276 [  2]     cmd!mkstr
+   26   807 [  1]   cmd!GetFullPath
+    5     0 [  2]     KERNELBASE!GetFullPathNameW
+   15     0 [  3]       ntdll!RtlGetFullPathName_UEx
+  122     0 [  4]         ntdll!RtlInitUnicodeStringEx
+   25   122 [  3]       ntdll!RtlGetFullPathName_UEx
+   60     0 [  4]         ntdll!RtlGetFullPathName_Ustr
+   42     0 [  5]           ntdll!memset
+   67    42 [  4]         ntdll!RtlGetFullPathName_Ustr
+  166     0 [  5]           ntdll!RtlpIsDosDeviceName_Ustr
+   71   208 [  4]         ntdll!RtlGetFullPathName_Ustr
+   25     0 [  5]           ntdll!RtlDetermineDosPathNameType_Ustr
+  933   233 [  4]         ntdll!RtlGetFullPathName_Ustr
+    6     0 [  5]           ntdll!_security_check_cookie
+  942   239 [  4]         ntdll!RtlGetFullPathName_Ustr
+   37  1303 [  3]       ntdll!RtlGetFullPathName_UEx
+   12  1340 [  2]     KERNELBASE!GetFullPathNameW
+   35  2159 [  1]   cmd!GetFullPath
+    9  2194 [  0] cmd!MakeHardLink
+   12     0 [  1]   cmd!GetFullPath
+    5     0 [  2]     KERNELBASE!GetFullPathNameW
+   15     0 [  3]       ntdll!RtlGetFullPathName_UEx
+   35     0 [  4]         ntdll!RtlInitUnicodeStringEx
+   25    35 [  3]       ntdll!RtlGetFullPathName_UEx
+   60     0 [  4]         ntdll!RtlGetFullPathName_Ustr
+    6     0 [  5]           ntdll!memset
+   67     6 [  4]         ntdll!RtlGetFullPathName_Ustr
+  198     0 [  5]           ntdll!RtlpIsDosDeviceName_Ustr
+   71   204 [  4]         ntdll!RtlGetFullPathName_Ustr
+   20     0 [  5]           ntdll!RtlDetermineDosPathNameType_Ustr
+   94   224 [  4]         ntdll!RtlGetFullPathName_Ustr
+   33     0 [  5]           ntdll!RtlpReferenceCurrentDirectory
+  106   257 [  4]         ntdll!RtlGetFullPathName_Ustr
+    8     0 [  5]           ntdll!RtlpComputeBackupIndex
+  111   265 [  4]         ntdll!RtlGetFullPathName_Ustr
+   33     0 [  5]           ntdll!RtlUnicodeStringCopy
+  161   298 [  4]         ntdll!RtlGetFullPathName_Ustr
+    6     0 [  5]           ntdll!_security_check_cookie
+  170   304 [  4]         ntdll!RtlGetFullPathName_Ustr
+   37   509 [  3]       ntdll!RtlGetFullPathName_UEx
+   12   546 [  2]     KERNELBASE!GetFullPathNameW
+   18   558 [  1]   cmd!GetFullPath
+    7     0 [  2]     cmd!mkstr
+    3     0 [  3]       KERNELBASE!GetProcessHeap
+   12     3 [  2]     cmd!mkstr
+   22     0 [  3]       ntdll!RtlAllocateHeap
+   61     0 [  3]       ntdll!RtlpAllocateHeapInternal
+   40     0 [  4]         ntdll!RtlpAllocateHeap
+  113     0 [  5]           ntdll!RtlDebugAllocateHeap
+   50   113 [  4]         ntdll!RtlpAllocateHeap
+   88   163 [  3]       ntdll!RtlpAllocateHeapInternal
+   25   276 [  2]     cmd!mkstr
+   26   859 [  1]   cmd!GetFullPath
+    5     0 [  2]     KERNELBASE!GetFullPathNameW
+   15     0 [  3]       ntdll!RtlGetFullPathName_UEx
+   35     0 [  4]         ntdll!RtlInitUnicodeStringEx
+   25    35 [  3]       ntdll!RtlGetFullPathName_UEx
+   60     0 [  4]         ntdll!RtlGetFullPathName_Ustr
+   34     0 [  5]           ntdll!memset
+   67    34 [  4]         ntdll!RtlGetFullPathName_Ustr
+  198     0 [  5]           ntdll!RtlpIsDosDeviceName_Ustr
+   71   232 [  4]         ntdll!RtlGetFullPathName_Ustr
+   20     0 [  5]           ntdll!RtlDetermineDosPathNameType_Ustr
+   94   252 [  4]         ntdll!RtlGetFullPathName_Ustr
+   33     0 [  5]           ntdll!RtlpReferenceCurrentDirectory
+  106   285 [  4]         ntdll!RtlGetFullPathName_Ustr
+    8     0 [  5]           ntdll!RtlpComputeBackupIndex
+  111   293 [  4]         ntdll!RtlGetFullPathName_Ustr
+   33     0 [  5]           ntdll!RtlUnicodeStringCopy
+  564   326 [  4]         ntdll!RtlGetFullPathName_Ustr
+    6     0 [  5]           ntdll!_security_check_cookie
+  573   332 [  4]         ntdll!RtlGetFullPathName_Ustr
+   37   940 [  3]       ntdll!RtlGetFullPathName_UEx
+   12   977 [  2]     KERNELBASE!GetFullPathNameW
+   35  1848 [  1]   cmd!GetFullPath
+   18  4077 [  0] cmd!MakeHardLink
+   24     0 [  1]   cmd!MaybeVolumeLocalNTFS
+    1     0 [  2]     cmd!memset
+   66     0 [  2]     msvcrt!memset
+   31    67 [  1]   cmd!MaybeVolumeLocalNTFS
+    1     0 [  2]     cmd!memset
+   66     0 [  2]     msvcrt!memset
+   38   134 [  1]   cmd!MaybeVolumeLocalNTFS
+   14     0 [  2]     cmd!MaxPathAwareString::EnsureCapacity
+    1     0 [  3]       cmd!operator new[]
+    3     0 [  3]       cmd!operator new
+    5     0 [  4]         cmd!operator new
+   28     0 [  5]           msvcrt!malloc
+   10    28 [  4]         cmd!operator new
+    7    38 [  3]       cmd!operator new
+   27    46 [  2]     cmd!MaxPathAwareString::EnsureCapacity
+    1     0 [  3]       cmd!memset
+ 2852     0 [  3]       msvcrt!memset
+   32  2899 [  2]     cmd!MaxPathAwareString::EnsureCapacity
+   47  3065 [  1]   cmd!MaybeVolumeLocalNTFS
+   14     0 [  2]     cmd!MaxPathAwareString::EnsureCapacity
+    1     0 [  3]       cmd!operator new[]
+    3     0 [  3]       cmd!operator new
+    5     0 [  4]         cmd!operator new
+   28     0 [  5]           msvcrt!malloc
+   10    28 [  4]         cmd!operator new
+    7    38 [  3]       cmd!operator new
+   27    46 [  2]     cmd!MaxPathAwareString::EnsureCapacity
+    1     0 [  3]       cmd!memset
+ 2852     0 [  3]       msvcrt!memset
+   32  2899 [  2]     cmd!MaxPathAwareString::EnsureCapacity
+   56  5996 [  1]   cmd!MaybeVolumeLocalNTFS
+    5     0 [  2]     KERNELBASE!GetVolumePathNameW
+   35     0 [  2]     KERNELBASE!GetVolumePathNameInternalW
+    5     0 [  3]       KERNELBASE!GetFullPathNameW
+   15     0 [  4]         ntdll!RtlGetFullPathName_UEx
+   95     0 [  5]           ntdll!RtlInitUnicodeStringEx
+   25    95 [  4]         ntdll!RtlGetFullPathName_UEx
+  129     0 [  5]           ntdll!RtlGetFullPathName_Ustr
+   37   224 [  4]         ntdll!RtlGetFullPathName_UEx
+   12   261 [  3]       KERNELBASE!GetFullPathNameW
+   46   273 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!RtlAllocateHeap
+   61     0 [  3]       ntdll!RtlpAllocateHeapInternal
+   40     0 [  4]         ntdll!RtlpAllocateHeap
+  113     0 [  5]           ntdll!RtlDebugAllocateHeap
+   50   113 [  4]         ntdll!RtlpAllocateHeap
+   88   163 [  3]       ntdll!RtlpAllocateHeapInternal
+   54   546 [  2]     KERNELBASE!GetVolumePathNameInternalW
+    1     0 [  3]       KERNELBASE!memset
+   43     0 [  3]       ntdll!memset
+   59   590 [  2]     KERNELBASE!GetVolumePathNameInternalW
+    5     0 [  3]       KERNELBASE!GetFullPathNameW
+   15     0 [  4]         ntdll!RtlGetFullPathName_UEx
+   95     0 [  5]           ntdll!RtlInitUnicodeStringEx
+   25    95 [  4]         ntdll!RtlGetFullPathName_UEx
+  740     0 [  5]           ntdll!RtlGetFullPathName_Ustr
+   37   835 [  4]         ntdll!RtlGetFullPathName_UEx
+   12   872 [  3]       KERNELBASE!GetFullPathNameW
+   64  1474 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   95     0 [  3]       ntdll!RtlInitUnicodeString
+   88  1569 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!RtlAllocateHeap
+   61     0 [  3]       ntdll!RtlpAllocateHeapInternal
+   40     0 [  4]         ntdll!RtlpAllocateHeap
+  113     0 [  5]           ntdll!RtlDebugAllocateHeap
+   50   113 [  4]         ntdll!RtlpAllocateHeap
+   88   163 [  3]       ntdll!RtlpAllocateHeapInternal
+   96  1842 [  2]     KERNELBASE!GetVolumePathNameInternalW
+    1     0 [  3]       KERNELBASE!memset
+ 1451     0 [  3]       ntdll!memset
+  105  3294 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   98     0 [  3]       ntdll!RtlInitUnicodeStringEx
+  116  3392 [  2]     KERNELBASE!GetVolumePathNameInternalW
+  111     0 [  3]       KERNELBASE!GetDriveTypeW
+    4     0 [  4]         ntdll!RtlUpcaseUnicodeChar
+  130     4 [  3]       KERNELBASE!GetDriveTypeW
+    7     0 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   25     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11    25 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+  158    40 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+  166    46 [  3]       KERNELBASE!GetDriveTypeW
+   28     0 [  4]         KERNELBASE!IsThisARootDirectory
+    6     0 [  5]           ntdll!NtOpenSymbolicLinkObject
+>> More than one level popped 4 -> 4
+   36     6 [  4]         KERNELBASE!IsThisARootDirectory
+    6     0 [  5]           KERNELBASE!_security_check_cookie
+   42    12 [  4]         KERNELBASE!IsThisARootDirectory
+  179   100 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+  186   106 [  3]       KERNELBASE!GetDriveTypeW
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  194   341 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+  204   347 [  3]       KERNELBASE!GetDriveTypeW
+  120  3943 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  125  3965 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  139  3987 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   18     0 [  3]       KERNELBASE!GetVolumeNameForRoot
+    7     0 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   25     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11    25 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   55    36 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+   64    42 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+   67   277 [  3]       KERNELBASE!GetVolumeNameForRoot
+  127     0 [  4]         ntdll!RtlNtStatusToDosError
+   70   404 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlSetLastWin32Error
+    6     0 [  5]           ntdll!_security_check_cookie
+   23     6 [  4]         ntdll!RtlSetLastWin32Error
+   76   433 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   86   439 [  3]       KERNELBASE!GetVolumeNameForRoot
+  146  4512 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   36     0 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   41     0 [  4]         KERNELBASE!CreateFileInternal
+   98     0 [  5]           ntdll!RtlInitUnicodeStringEx
+   57    98 [  4]         KERNELBASE!CreateFileInternal
+   25     0 [  5]           ntdll!RtlDosPathNameToRelativeNtPathName_U_WithStatus
+  168   123 [  4]         KERNELBASE!CreateFileInternal
+  102     0 [  5]           ntdll!SbSelectProcedure
+  173   225 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!LdrpDispatchUserCallTarget
+    1     0 [  5]           KERNELBASE!AfpAdminDisconnect
+  190   237 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           ntdll!NtCreateFile
+>> More than one level popped 4 -> 4
+  196   243 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!RtlReleaseRelativeName
+  202   254 [  4]         KERNELBASE!CreateFileInternal
+   28     0 [  5]           ntdll!RtlFreeHeap
+>> No match on ret
+   28     0 [  5]           ntdll!RtlFreeHeap
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+   11     0 [  5]           ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  5]           ntdll!RtlpFreeHeap
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+    7     0 [  5]           ntdll!RtlFreeHeap
+  208   346 [  4]         KERNELBASE!CreateFileInternal
+   15     0 [  5]           ntdll!RtlFreeHeap
+  213   361 [  4]         KERNELBASE!CreateFileInternal
+   12     0 [  5]           KERNELBASE!BaseSetLastNTError
+  222   373 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           KERNELBASE!_security_check_cookie
+  232   379 [  4]         KERNELBASE!CreateFileInternal
+   48   611 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   58   617 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  219  5187 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   77     0 [  3]       ntdll!RtlInitUnicodeString
+  228  5264 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   77     0 [  3]       ntdll!RtlInitUnicodeStringEx
+  239  5341 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   90     0 [  3]       KERNELBASE!GetDriveTypeW
+    4     0 [  4]         ntdll!RtlUpcaseUnicodeChar
+  109     4 [  3]       KERNELBASE!GetDriveTypeW
+    7     0 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   25     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11    25 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+  137    40 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+  146    46 [  3]       KERNELBASE!GetDriveTypeW
+   36     0 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  235     0 [  5]           KERNELBASE!CreateFileInternal
+   52   235 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   43     0 [  5]           KERNELBASE!DeviceIoControl
+   62   278 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   23     0 [  5]           KERNELBASE!CloseHandle
+   66   301 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+    6     0 [  5]           KERNELBASE!_security_check_cookie
+   76   307 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  155   429 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+  162   435 [  3]       KERNELBASE!GetDriveTypeW
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  172   670 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtQueryVolumeInformationFile
+>> More than one level popped 3 -> 3
+  192   676 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtClose
+>> More than one level popped 3 -> 3
+  198   682 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+  208   688 [  3]       KERNELBASE!GetDriveTypeW
+  243  6237 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  248  6259 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  262  6281 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   18     0 [  3]       KERNELBASE!GetVolumeNameForRoot
+    7     0 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   25     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11    25 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   55    36 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+   70    42 [  3]       KERNELBASE!GetVolumeNameForRoot
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtDeviceIoControlFile
+>> More than one level popped 4 -> 4
+   36     6 [  4]         KERNELBASE!DeviceIoControl
+   12     0 [  5]           KERNELBASE!BaseSetLastNTError
+   42    18 [  4]         KERNELBASE!DeviceIoControl
+   73   102 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtClose
+>> More than one level popped 3 -> 3
+   79   108 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+   86   343 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   96   349 [  3]       KERNELBASE!GetVolumeNameForRoot
+  269  6726 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   36     0 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   41     0 [  4]         KERNELBASE!CreateFileInternal
+   77     0 [  5]           ntdll!RtlInitUnicodeStringEx
+   57    77 [  4]         KERNELBASE!CreateFileInternal
+   25     0 [  5]           ntdll!RtlDosPathNameToRelativeNtPathName_U_WithStatus
+  168   102 [  4]         KERNELBASE!CreateFileInternal
+   95     0 [  5]           ntdll!SbSelectProcedure
+  173   197 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!LdrpDispatchUserCallTarget
+    1     0 [  5]           KERNELBASE!AfpAdminDisconnect
+  190   209 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           ntdll!NtCreateFile
+>> More than one level popped 4 -> 4
+  196   215 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!RtlReleaseRelativeName
+  202   226 [  4]         KERNELBASE!CreateFileInternal
+   28     0 [  5]           ntdll!RtlFreeHeap
+>> No match on ret
+   28     0 [  5]           ntdll!RtlFreeHeap
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+   11     0 [  5]           ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  5]           ntdll!RtlpFreeHeap
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+    7     0 [  5]           ntdll!RtlFreeHeap
+  208   318 [  4]         KERNELBASE!CreateFileInternal
+   15     0 [  5]           ntdll!RtlFreeHeap
+  218   333 [  4]         KERNELBASE!CreateFileInternal
+   21     0 [  5]           ntdll!RtlSetLastWin32Error
+  225   354 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           KERNELBASE!_security_check_cookie
+  235   360 [  4]         KERNELBASE!CreateFileInternal
+   53   595 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtFsControlFile
+>> More than one level popped 4 -> 4
+   37     6 [  4]         KERNELBASE!DeviceIoControl
+   12     0 [  5]           KERNELBASE!BaseSetLastNTError
+   43    18 [  4]         KERNELBASE!DeviceIoControl
+   63   656 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   10     0 [  4]         KERNELBASE!CloseHandle
+   95     0 [  5]           ntdll!SbSelectProcedure
+   14    95 [  4]         KERNELBASE!CloseHandle
+   11     0 [  5]           ntdll!LdrpDispatchUserCallTarget
+    8     0 [  5]           KERNELBASE!SwitchedCloseHandleNoRaiseUMException_WinBLUE
+   16   114 [  4]         KERNELBASE!CloseHandle
+    6     0 [  5]           ntdll!NtClose
+>> More than one level popped 4 -> 4
+   23   120 [  4]         KERNELBASE!CloseHandle
+   67   799 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   77   805 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  345  7608 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   50     0 [  3]       ntdll!RtlInitUnicodeString
+  354  7658 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   50     0 [  3]       ntdll!RtlInitUnicodeStringEx
+  365  7708 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   63     0 [  3]       KERNELBASE!GetDriveTypeW
+    4     0 [  4]         ntdll!RtlUpcaseUnicodeChar
+   82     4 [  3]       KERNELBASE!GetDriveTypeW
+    7     0 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   25     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11    25 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+  110    40 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+  119    46 [  3]       KERNELBASE!GetDriveTypeW
+   36     0 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  235     0 [  5]           KERNELBASE!CreateFileInternal
+   52   235 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   43     0 [  5]           KERNELBASE!DeviceIoControl
+   62   278 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   23     0 [  5]           KERNELBASE!CloseHandle
+   66   301 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+    6     0 [  5]           KERNELBASE!_security_check_cookie
+   76   307 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  128   429 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+  135   435 [  3]       KERNELBASE!GetDriveTypeW
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  145   670 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtQueryVolumeInformationFile
+>> More than one level popped 3 -> 3
+  165   676 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtClose
+>> More than one level popped 3 -> 3
+  171   682 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+  181   688 [  3]       KERNELBASE!GetDriveTypeW
+  369  8577 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  374  8599 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  388  8621 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   18     0 [  3]       KERNELBASE!GetVolumeNameForRoot
+    7     0 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   25     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11    25 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   55    36 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+   70    42 [  3]       KERNELBASE!GetVolumeNameForRoot
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtDeviceIoControlFile
+>> More than one level popped 4 -> 4
+   36     6 [  4]         KERNELBASE!DeviceIoControl
+   12     0 [  5]           KERNELBASE!BaseSetLastNTError
+   42    18 [  4]         KERNELBASE!DeviceIoControl
+   73   102 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtClose
+>> More than one level popped 3 -> 3
+   79   108 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+   86   343 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   96   349 [  3]       KERNELBASE!GetVolumeNameForRoot
+  395  9066 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   36     0 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   41     0 [  4]         KERNELBASE!CreateFileInternal
+   50     0 [  5]           ntdll!RtlInitUnicodeStringEx
+   57    50 [  4]         KERNELBASE!CreateFileInternal
+   25     0 [  5]           ntdll!RtlDosPathNameToRelativeNtPathName_U_WithStatus
+  168    75 [  4]         KERNELBASE!CreateFileInternal
+   95     0 [  5]           ntdll!SbSelectProcedure
+  173   170 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!LdrpDispatchUserCallTarget
+    1     0 [  5]           KERNELBASE!AfpAdminDisconnect
+  190   182 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           ntdll!NtCreateFile
+>> More than one level popped 4 -> 4
+  196   188 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!RtlReleaseRelativeName
+  202   199 [  4]         KERNELBASE!CreateFileInternal
+   28     0 [  5]           ntdll!RtlFreeHeap
+>> No match on ret
+   28     0 [  5]           ntdll!RtlFreeHeap
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+   11     0 [  5]           ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  5]           ntdll!RtlpFreeHeap
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+    7     0 [  5]           ntdll!RtlFreeHeap
+  208   291 [  4]         KERNELBASE!CreateFileInternal
+   15     0 [  5]           ntdll!RtlFreeHeap
+  218   306 [  4]         KERNELBASE!CreateFileInternal
+   21     0 [  5]           ntdll!RtlSetLastWin32Error
+  225   327 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           KERNELBASE!_security_check_cookie
+  235   333 [  4]         KERNELBASE!CreateFileInternal
+   53   568 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtFsControlFile
+>> More than one level popped 4 -> 4
+   37     6 [  4]         KERNELBASE!DeviceIoControl
+   12     0 [  5]           KERNELBASE!BaseSetLastNTError
+   43    18 [  4]         KERNELBASE!DeviceIoControl
+   63   629 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   10     0 [  4]         KERNELBASE!CloseHandle
+   95     0 [  5]           ntdll!SbSelectProcedure
+   14    95 [  4]         KERNELBASE!CloseHandle
+   11     0 [  5]           ntdll!LdrpDispatchUserCallTarget
+    8     0 [  5]           KERNELBASE!SwitchedCloseHandleNoRaiseUMException_WinBLUE
+   16   114 [  4]         KERNELBASE!CloseHandle
+    6     0 [  5]           ntdll!NtClose
+>> More than one level popped 4 -> 4
+   23   120 [  4]         KERNELBASE!CloseHandle
+   67   772 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   77   778 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  466  9921 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   26     0 [  3]       ntdll!RtlInitUnicodeString
+  475  9947 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   26     0 [  3]       ntdll!RtlInitUnicodeStringEx
+  486  9973 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   39     0 [  3]       KERNELBASE!GetDriveTypeW
+    4     0 [  4]         ntdll!RtlUpcaseUnicodeChar
+   57     4 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtQueryInformationProcess
+>> More than one level popped 3 -> 3
+   75    10 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   85    16 [  3]       KERNELBASE!GetDriveTypeW
+  490 10074 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  495 10096 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  510 10118 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   18     0 [  3]       KERNELBASE!GetVolumeNameForRoot
+    7     0 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   25     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11    25 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   43    36 [  3]       KERNELBASE!GetVolumeNameForRoot
+    8     0 [  4]         ntdll!toupper
+   52     0 [  5]           ntdll!RtlAnsiCharToUnicodeChar
+   15    52 [  4]         ntdll!toupper
+   19     0 [  5]           ntdll!RtlUpcaseUnicodeToMultiByteN
+   23    71 [  4]         ntdll!toupper
+   63   130 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+   78   136 [  3]       KERNELBASE!GetVolumeNameForRoot
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtDeviceIoControlFile
+>> More than one level popped 4 -> 4
+   39     6 [  4]         KERNELBASE!DeviceIoControl
+   81   181 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtClose
+>> More than one level popped 3 -> 3
+   87   187 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+   99   422 [  3]       KERNELBASE!GetVolumeNameForRoot
+   22     0 [  4]         ntdll!RtlAllocateHeap
+   61     0 [  4]         ntdll!RtlpAllocateHeapInternal
+   50     0 [  5]           ntdll!RtlpAllocateHeap
+   88    50 [  4]         ntdll!RtlpAllocateHeapInternal
+  107   582 [  3]       KERNELBASE!GetVolumeNameForRoot
+    1     0 [  4]         KERNELBASE!memcpy
+   37     0 [  4]         ntdll!memcpy
+  117   620 [  3]       KERNELBASE!GetVolumeNameForRoot
+   22     0 [  4]         ntdll!RtlAllocateHeap
+   61     0 [  4]         ntdll!RtlpAllocateHeapInternal
+   50     0 [  5]           ntdll!RtlpAllocateHeap
+   88    50 [  4]         ntdll!RtlpAllocateHeapInternal
+  132   780 [  3]       KERNELBASE!GetVolumeNameForRoot
+    1     0 [  4]         KERNELBASE!memcpy
+   40     0 [  4]         ntdll!memcpy
+  137   821 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  144  1056 [  3]       KERNELBASE!GetVolumeNameForRoot
+   22     0 [  4]         ntdll!RtlAllocateHeap
+   61     0 [  4]         ntdll!RtlpAllocateHeapInternal
+   50     0 [  5]           ntdll!RtlpAllocateHeap
+   88    50 [  4]         ntdll!RtlpAllocateHeapInternal
+  161  1216 [  3]       KERNELBASE!GetVolumeNameForRoot
+   41     0 [  4]         KERNELBASE!CreateFileInternal
+   80     0 [  5]           ntdll!RtlInitUnicodeStringEx
+   58    80 [  4]         KERNELBASE!CreateFileInternal
+   25     0 [  5]           ntdll!RtlDosPathNameToRelativeNtPathName_U_WithStatus
+  168   105 [  4]         KERNELBASE!CreateFileInternal
+   95     0 [  5]           ntdll!SbSelectProcedure
+  173   200 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!LdrpDispatchUserCallTarget
+    1     0 [  5]           KERNELBASE!AfpAdminDisconnect
+  190   212 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           ntdll!NtCreateFile
+>> More than one level popped 4 -> 4
+  196   218 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!RtlReleaseRelativeName
+  202   229 [  4]         KERNELBASE!CreateFileInternal
+   28     0 [  5]           ntdll!RtlFreeHeap
+>> No match on ret
+   28     0 [  5]           ntdll!RtlFreeHeap
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+   11     0 [  5]           ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  5]           ntdll!RtlpFreeHeap
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+    7     0 [  5]           ntdll!RtlFreeHeap
+  208   321 [  4]         KERNELBASE!CreateFileInternal
+   15     0 [  5]           ntdll!RtlFreeHeap
+  218   336 [  4]         KERNELBASE!CreateFileInternal
+   21     0 [  5]           ntdll!RtlSetLastWin32Error
+  225   357 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           KERNELBASE!_security_check_cookie
+  235   363 [  4]         KERNELBASE!CreateFileInternal
+  175  1814 [  3]       KERNELBASE!GetVolumeNameForRoot
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtDeviceIoControlFile
+>> More than one level popped 4 -> 4
+   42     6 [  4]         KERNELBASE!DeviceIoControl
+   12     0 [  5]           KERNELBASE!BaseSetLastNTError
+   48    18 [  4]         KERNELBASE!DeviceIoControl
+  188  1880 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  194  2115 [  3]       KERNELBASE!GetVolumeNameForRoot
+   22     0 [  4]         ntdll!RtlAllocateHeap
+   61     0 [  4]         ntdll!RtlpAllocateHeapInternal
+   50     0 [  5]           ntdll!RtlpAllocateHeap
+   88    50 [  4]         ntdll!RtlpAllocateHeapInternal
+  211  2275 [  3]       KERNELBASE!GetVolumeNameForRoot
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtDeviceIoControlFile
+>> More than one level popped 4 -> 4
+   39     6 [  4]         KERNELBASE!DeviceIoControl
+  216  2320 [  3]       KERNELBASE!GetVolumeNameForRoot
+   10     0 [  4]         KERNELBASE!CloseHandle
+   95     0 [  5]           ntdll!SbSelectProcedure
+   14    95 [  4]         KERNELBASE!CloseHandle
+   11     0 [  5]           ntdll!LdrpDispatchUserCallTarget
+    8     0 [  5]           KERNELBASE!SwitchedCloseHandleNoRaiseUMException_WinBLUE
+   16   114 [  4]         KERNELBASE!CloseHandle
+    6     0 [  5]           ntdll!NtClose
+>> More than one level popped 4 -> 4
+   23   120 [  4]         KERNELBASE!CloseHandle
+  221  2463 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  302  2698 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  308  2933 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+  318  2939 [  3]       KERNELBASE!GetVolumeNameForRoot
+  517 13375 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   21     0 [  3]       ntdll!RtlFreeHeap
+   41     0 [  4]         ntdll!RtlpFreeHeapInternal
+   46     0 [  5]           ntdll!RtlpFreeHeap
+   51    46 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   65    54 [  4]         ntdll!RtlpFreeHeapInternal
+   28   119 [  3]       ntdll!RtlFreeHeap
+  540 13522 [  2]     KERNELBASE!GetVolumePathNameInternalW
+    1     0 [  3]       KERNELBASE!memcpy
+   39     0 [  3]       ntdll!memcpy
+  547 13562 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   21     0 [  3]       ntdll!RtlFreeHeap
+   41     0 [  4]         ntdll!RtlpFreeHeapInternal
+   46     0 [  5]           ntdll!RtlpFreeHeap
+   51    46 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   65    54 [  4]         ntdll!RtlpFreeHeapInternal
+   28   119 [  3]       ntdll!RtlFreeHeap
+  552 13709 [  2]     KERNELBASE!GetVolumePathNameInternalW
+    6     0 [  3]       KERNELBASE!_security_check_cookie
+  562 13715 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   64 20278 [  1]   cmd!MaybeVolumeLocalNTFS
+   39     0 [  2]     KERNELBASE!GetDriveTypeW
+    4     0 [  3]       ntdll!RtlUpcaseUnicodeChar
+   57     4 [  2]     KERNELBASE!GetDriveTypeW
+    6     0 [  3]       ntdll!NtQueryInformationProcess
+>> More than one level popped 2 -> 2
+   75    10 [  2]     KERNELBASE!GetDriveTypeW
+    6     0 [  3]       KERNELBASE!_security_check_cookie
+   85    16 [  2]     KERNELBASE!GetDriveTypeW
+   88 20379 [  1]   cmd!MaybeVolumeLocalNTFS
+   24     0 [  2]     KERNELBASE!GetVolumeInformationW
+    7     0 [  3]       ntdll!RtlDosPathNameToNtPathName_U
+    9     0 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   26     0 [  5]           ntdll!RtlInitUnicodeStringEx
+   20    26 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName_U
+  172     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName
+   25   198 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11   223 [  3]       ntdll!RtlDosPathNameToNtPathName_U
+   42   234 [  2]     KERNELBASE!GetVolumeInformationW
+   18     0 [  3]       ntdll!RtlSetThreadErrorMode
+   50   252 [  2]     KERNELBASE!GetVolumeInformationW
+    6     0 [  3]       ntdll!NtOpenFile
+>> More than one level popped 2 -> 2
+   55   258 [  2]     KERNELBASE!GetVolumeInformationW
+   14     0 [  3]       ntdll!RtlSetThreadErrorMode
+   61   272 [  2]     KERNELBASE!GetVolumeInformationW
+   19     0 [  3]       KERNELBASE!IsThisARootDirectory
+    6     0 [  4]         ntdll!NtQueryInformationFile
+>> More than one level popped 3 -> 3
+   33     6 [  3]       KERNELBASE!IsThisARootDirectory
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   39    12 [  3]       KERNELBASE!IsThisARootDirectory
+   68   323 [  2]     KERNELBASE!GetVolumeInformationW
+   21     0 [  3]       ntdll!RtlFreeHeap
+   41     0 [  4]         ntdll!RtlpFreeHeapInternal
+   46     0 [  5]           ntdll!RtlpFreeHeap
+   51    46 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   65    54 [  4]         ntdll!RtlpFreeHeapInternal
+   28   119 [  3]       ntdll!RtlFreeHeap
+   82   470 [  2]     KERNELBASE!GetVolumeInformationW
+   36     0 [  3]       KERNELBASE!GetVolumeInformationByHandleW
+   22     0 [  4]         ntdll!RtlAllocateHeap
+   61     0 [  4]         ntdll!RtlpAllocateHeapInternal
+   50     0 [  5]           ntdll!RtlpAllocateHeap
+   88    50 [  4]         ntdll!RtlpAllocateHeapInternal
+   53   160 [  3]       KERNELBASE!GetVolumeInformationByHandleW
+    6     0 [  4]         ntdll!NtQueryVolumeInformationFile
+>> More than one level popped 3 -> 3
+   70   166 [  3]       KERNELBASE!GetVolumeInformationByHandleW
+    1     0 [  4]         KERNELBASE!memcpy
+   10     0 [  4]         ntdll!memcpy
+   95   177 [  3]       KERNELBASE!GetVolumeInformationByHandleW
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  106   412 [  3]       KERNELBASE!GetVolumeInformationByHandleW
+   85   988 [  2]     KERNELBASE!GetVolumeInformationW
+    6     0 [  3]       ntdll!NtClose
+>> More than one level popped 2 -> 2
+   97   994 [  2]     KERNELBASE!GetVolumeInformationW
+   97 21470 [  1]   cmd!MaybeVolumeLocalNTFS
+    9     0 [  2]     msvcrt!wcsicmp
+   11     0 [  2]     msvcrt!wcsicmp_l
+    8     0 [  3]       msvcrt!_LocaleUpdate::_LocaleUpdate
+    4     0 [  4]         msvcrt!getptd_noexit
+    3     0 [  5]           KERNELBASE!GetLastError
+    7     3 [  4]         msvcrt!getptd_noexit
+   13     0 [  5]           KERNELBASE!FlsGetValue
+   12    16 [  4]         msvcrt!getptd_noexit
+   23     0 [  5]           ntdll!RtlSetLastWin32Error
+   17    39 [  4]         msvcrt!getptd_noexit
+   32    56 [  3]       msvcrt!_LocaleUpdate::_LocaleUpdate
+   22    88 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   33    33 [  3]       msvcrt!towlower_l
+   27   154 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   33    33 [  3]       msvcrt!towlower_l
+   36   220 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   33    33 [  3]       msvcrt!towlower_l
+   41   286 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   33    33 [  3]       msvcrt!towlower_l
+   50   352 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   33    33 [  3]       msvcrt!towlower_l
+   55   418 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   33    33 [  3]       msvcrt!towlower_l
+   64   484 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   33    33 [  3]       msvcrt!towlower_l
+   69   550 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   33    33 [  3]       msvcrt!towlower_l
+   78   616 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   30    33 [  3]       msvcrt!towlower_l
+   83   679 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   30    33 [  3]       msvcrt!towlower_l
+  100   742 [  2]     msvcrt!wcsicmp_l
+  105 22321 [  1]   cmd!MaybeVolumeLocalNTFS
+    1     0 [  2]     msvcrt!operator delete[]
+    1     0 [  2]     msvcrt!operator delete
+    8     0 [  2]     msvcrt!free
+   21     0 [  3]       ntdll!RtlFreeHeap
+   41     0 [  4]         ntdll!RtlpFreeHeapInternal
+   46     0 [  5]           ntdll!RtlpFreeHeap
+   51    46 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   65    54 [  4]         ntdll!RtlpFreeHeapInternal
+   28   119 [  3]       ntdll!RtlFreeHeap
+   13   147 [  2]     msvcrt!free
+  111 22483 [  1]   cmd!MaybeVolumeLocalNTFS
+    1     0 [  2]     msvcrt!operator delete[]
+    1     0 [  2]     msvcrt!operator delete
+    8     0 [  2]     msvcrt!free
+   21     0 [  3]       ntdll!RtlFreeHeap
+   41     0 [  4]         ntdll!RtlpFreeHeapInternal
+   46     0 [  5]           ntdll!RtlpFreeHeap
+   51    46 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   65    54 [  4]         ntdll!RtlpFreeHeapInternal
+   28   119 [  3]       ntdll!RtlFreeHeap
+   13   147 [  2]     msvcrt!free
+  116 22645 [  1]   cmd!MaybeVolumeLocalNTFS
+    6     0 [  2]     cmd!_security_check_cookie
+  125 22651 [  1]   cmd!MaybeVolumeLocalNTFS
+   24 26853 [  0] cmd!MakeHardLink
+   24     0 [  1]   cmd!MaybeVolumeLocalNTFS
+    1     0 [  2]     cmd!memset
+   66     0 [  2]     msvcrt!memset
+   31    67 [  1]   cmd!MaybeVolumeLocalNTFS
+    1     0 [  2]     cmd!memset
+   66     0 [  2]     msvcrt!memset
+   38   134 [  1]   cmd!MaybeVolumeLocalNTFS
+   14     0 [  2]     cmd!MaxPathAwareString::EnsureCapacity
+    1     0 [  3]       cmd!operator new[]
+    3     0 [  3]       cmd!operator new
+    5     0 [  4]         cmd!operator new
+   28     0 [  5]           msvcrt!malloc
+   10    28 [  4]         cmd!operator new
+    7    38 [  3]       cmd!operator new
+   27    46 [  2]     cmd!MaxPathAwareString::EnsureCapacity
+    1     0 [  3]       cmd!memset
+ 2852     0 [  3]       msvcrt!memset
+   32  2899 [  2]     cmd!MaxPathAwareString::EnsureCapacity
+   47  3065 [  1]   cmd!MaybeVolumeLocalNTFS
+   14     0 [  2]     cmd!MaxPathAwareString::EnsureCapacity
+    1     0 [  3]       cmd!operator new[]
+    3     0 [  3]       cmd!operator new
+    5     0 [  4]         cmd!operator new
+   28     0 [  5]           msvcrt!malloc
+   10    28 [  4]         cmd!operator new
+    7    38 [  3]       cmd!operator new
+   27    46 [  2]     cmd!MaxPathAwareString::EnsureCapacity
+    1     0 [  3]       cmd!memset
+ 2852     0 [  3]       msvcrt!memset
+   32  2899 [  2]     cmd!MaxPathAwareString::EnsureCapacity
+   56  5996 [  1]   cmd!MaybeVolumeLocalNTFS
+    5     0 [  2]     KERNELBASE!GetVolumePathNameW
+   35     0 [  2]     KERNELBASE!GetVolumePathNameInternalW
+    5     0 [  3]       KERNELBASE!GetFullPathNameW
+   15     0 [  4]         ntdll!RtlGetFullPathName_UEx
+  122     0 [  5]           ntdll!RtlInitUnicodeStringEx
+   25   122 [  4]         ntdll!RtlGetFullPathName_UEx
+  129     0 [  5]           ntdll!RtlGetFullPathName_Ustr
+   37   251 [  4]         ntdll!RtlGetFullPathName_UEx
+   12   288 [  3]       KERNELBASE!GetFullPathNameW
+   46   300 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!RtlAllocateHeap
+   61     0 [  3]       ntdll!RtlpAllocateHeapInternal
+   40     0 [  4]         ntdll!RtlpAllocateHeap
+  113     0 [  5]           ntdll!RtlDebugAllocateHeap
+   50   113 [  4]         ntdll!RtlpAllocateHeap
+   88   163 [  3]       ntdll!RtlpAllocateHeapInternal
+   54   573 [  2]     KERNELBASE!GetVolumePathNameInternalW
+    1     0 [  3]       KERNELBASE!memset
+   42     0 [  3]       ntdll!memset
+   59   616 [  2]     KERNELBASE!GetVolumePathNameInternalW
+    5     0 [  3]       KERNELBASE!GetFullPathNameW
+   15     0 [  4]         ntdll!RtlGetFullPathName_UEx
+  122     0 [  5]           ntdll!RtlInitUnicodeStringEx
+   25   122 [  4]         ntdll!RtlGetFullPathName_UEx
+  942     0 [  5]           ntdll!RtlGetFullPathName_Ustr
+   37  1064 [  4]         ntdll!RtlGetFullPathName_UEx
+   12  1101 [  3]       KERNELBASE!GetFullPathNameW
+   64  1729 [  2]     KERNELBASE!GetVolumePathNameInternalW
+  122     0 [  3]       ntdll!RtlInitUnicodeString
+   88  1851 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!RtlAllocateHeap
+   61     0 [  3]       ntdll!RtlpAllocateHeapInternal
+   40     0 [  4]         ntdll!RtlpAllocateHeap
+  113     0 [  5]           ntdll!RtlDebugAllocateHeap
+   50   113 [  4]         ntdll!RtlpAllocateHeap
+   88   163 [  3]       ntdll!RtlpAllocateHeapInternal
+   96  2124 [  2]     KERNELBASE!GetVolumePathNameInternalW
+    1     0 [  3]       KERNELBASE!memset
+ 1451     0 [  3]       ntdll!memset
+  105  3576 [  2]     KERNELBASE!GetVolumePathNameInternalW
+  125     0 [  3]       ntdll!RtlInitUnicodeStringEx
+  116  3701 [  2]     KERNELBASE!GetVolumePathNameInternalW
+  138     0 [  3]       KERNELBASE!GetDriveTypeW
+    4     0 [  4]         ntdll!RtlUpcaseUnicodeChar
+  157     4 [  3]       KERNELBASE!GetDriveTypeW
+    7     0 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   25     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11    25 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+  185    40 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+  193    46 [  3]       KERNELBASE!GetDriveTypeW
+   28     0 [  4]         KERNELBASE!IsThisARootDirectory
+    6     0 [  5]           ntdll!NtOpenSymbolicLinkObject
+>> More than one level popped 4 -> 4
+   36     6 [  4]         KERNELBASE!IsThisARootDirectory
+    6     0 [  5]           KERNELBASE!_security_check_cookie
+   42    12 [  4]         KERNELBASE!IsThisARootDirectory
+  201   100 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtClose
+>> More than one level popped 3 -> 3
+  210   106 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+  217   112 [  3]       KERNELBASE!GetDriveTypeW
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  227   347 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtQueryVolumeInformationFile
+>> More than one level popped 3 -> 3
+  247   353 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtClose
+>> More than one level popped 3 -> 3
+  253   359 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+  263   365 [  3]       KERNELBASE!GetDriveTypeW
+  120  4329 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  125  4351 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  139  4373 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   18     0 [  3]       KERNELBASE!GetVolumeNameForRoot
+    7     0 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   25     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11    25 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   55    36 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+   70    42 [  3]       KERNELBASE!GetVolumeNameForRoot
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtDeviceIoControlFile
+>> More than one level popped 4 -> 4
+   36     6 [  4]         KERNELBASE!DeviceIoControl
+   12     0 [  5]           KERNELBASE!BaseSetLastNTError
+   42    18 [  4]         KERNELBASE!DeviceIoControl
+   73   102 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtClose
+>> More than one level popped 3 -> 3
+   79   108 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+   86   343 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   96   349 [  3]       KERNELBASE!GetVolumeNameForRoot
+  146  4818 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   36     0 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   41     0 [  4]         KERNELBASE!CreateFileInternal
+  125     0 [  5]           ntdll!RtlInitUnicodeStringEx
+   57   125 [  4]         KERNELBASE!CreateFileInternal
+   25     0 [  5]           ntdll!RtlDosPathNameToRelativeNtPathName_U_WithStatus
+  168   150 [  4]         KERNELBASE!CreateFileInternal
+   95     0 [  5]           ntdll!SbSelectProcedure
+  173   245 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!LdrpDispatchUserCallTarget
+    1     0 [  5]           KERNELBASE!AfpAdminDisconnect
+  190   257 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           ntdll!NtCreateFile
+>> More than one level popped 4 -> 4
+  196   263 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!RtlReleaseRelativeName
+  202   274 [  4]         KERNELBASE!CreateFileInternal
+   28     0 [  5]           ntdll!RtlFreeHeap
+>> No match on ret
+   28     0 [  5]           ntdll!RtlFreeHeap
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+   11     0 [  5]           ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  5]           ntdll!RtlpFreeHeap
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+    7     0 [  5]           ntdll!RtlFreeHeap
+  208   366 [  4]         KERNELBASE!CreateFileInternal
+   15     0 [  5]           ntdll!RtlFreeHeap
+  213   381 [  4]         KERNELBASE!CreateFileInternal
+   12     0 [  5]           KERNELBASE!BaseSetLastNTError
+  222   393 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           KERNELBASE!_security_check_cookie
+  232   399 [  4]         KERNELBASE!CreateFileInternal
+   48   631 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   58   637 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  239  5513 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   92     0 [  3]       ntdll!RtlInitUnicodeString
+  248  5605 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   92     0 [  3]       ntdll!RtlInitUnicodeStringEx
+  259  5697 [  2]     KERNELBASE!GetVolumePathNameInternalW
+  105     0 [  3]       KERNELBASE!GetDriveTypeW
+    4     0 [  4]         ntdll!RtlUpcaseUnicodeChar
+  124     4 [  3]       KERNELBASE!GetDriveTypeW
+    7     0 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   25     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11    25 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+  152    40 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+  161    46 [  3]       KERNELBASE!GetDriveTypeW
+   36     0 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  235     0 [  5]           KERNELBASE!CreateFileInternal
+   52   235 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   43     0 [  5]           KERNELBASE!DeviceIoControl
+   62   278 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   23     0 [  5]           KERNELBASE!CloseHandle
+   66   301 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+    6     0 [  5]           KERNELBASE!_security_check_cookie
+   76   307 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  170   429 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+  177   435 [  3]       KERNELBASE!GetDriveTypeW
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  187   670 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtQueryVolumeInformationFile
+>> More than one level popped 3 -> 3
+  207   676 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtClose
+>> More than one level popped 3 -> 3
+  213   682 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+  223   688 [  3]       KERNELBASE!GetDriveTypeW
+  263  6608 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  268  6630 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  282  6652 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   18     0 [  3]       KERNELBASE!GetVolumeNameForRoot
+    7     0 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   25     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11    25 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   55    36 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+   70    42 [  3]       KERNELBASE!GetVolumeNameForRoot
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtDeviceIoControlFile
+>> More than one level popped 4 -> 4
+   36     6 [  4]         KERNELBASE!DeviceIoControl
+   12     0 [  5]           KERNELBASE!BaseSetLastNTError
+   42    18 [  4]         KERNELBASE!DeviceIoControl
+   73   102 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtClose
+>> More than one level popped 3 -> 3
+   79   108 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+   86   343 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   96   349 [  3]       KERNELBASE!GetVolumeNameForRoot
+  289  7097 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   36     0 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   41     0 [  4]         KERNELBASE!CreateFileInternal
+   92     0 [  5]           ntdll!RtlInitUnicodeStringEx
+   57    92 [  4]         KERNELBASE!CreateFileInternal
+   25     0 [  5]           ntdll!RtlDosPathNameToRelativeNtPathName_U_WithStatus
+  168   117 [  4]         KERNELBASE!CreateFileInternal
+   95     0 [  5]           ntdll!SbSelectProcedure
+  173   212 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!LdrpDispatchUserCallTarget
+    1     0 [  5]           KERNELBASE!AfpAdminDisconnect
+  190   224 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           ntdll!NtCreateFile
+>> More than one level popped 4 -> 4
+  196   230 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!RtlReleaseRelativeName
+  202   241 [  4]         KERNELBASE!CreateFileInternal
+   28     0 [  5]           ntdll!RtlFreeHeap
+>> No match on ret
+   28     0 [  5]           ntdll!RtlFreeHeap
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+   11     0 [  5]           ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  5]           ntdll!RtlpFreeHeap
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+    7     0 [  5]           ntdll!RtlFreeHeap
+  208   333 [  4]         KERNELBASE!CreateFileInternal
+   15     0 [  5]           ntdll!RtlFreeHeap
+  218   348 [  4]         KERNELBASE!CreateFileInternal
+   21     0 [  5]           ntdll!RtlSetLastWin32Error
+  225   369 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           KERNELBASE!_security_check_cookie
+  235   375 [  4]         KERNELBASE!CreateFileInternal
+   53   610 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtFsControlFile
+>> More than one level popped 4 -> 4
+   37     6 [  4]         KERNELBASE!DeviceIoControl
+   12     0 [  5]           KERNELBASE!BaseSetLastNTError
+   43    18 [  4]         KERNELBASE!DeviceIoControl
+   63   671 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   10     0 [  4]         KERNELBASE!CloseHandle
+   95     0 [  5]           ntdll!SbSelectProcedure
+   14    95 [  4]         KERNELBASE!CloseHandle
+   11     0 [  5]           ntdll!LdrpDispatchUserCallTarget
+    8     0 [  5]           KERNELBASE!SwitchedCloseHandleNoRaiseUMException_WinBLUE
+   16   114 [  4]         KERNELBASE!CloseHandle
+    6     0 [  5]           ntdll!NtClose
+>> More than one level popped 4 -> 4
+   23   120 [  4]         KERNELBASE!CloseHandle
+   67   814 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   77   820 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  360  7994 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   68     0 [  3]       ntdll!RtlInitUnicodeString
+  369  8062 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   68     0 [  3]       ntdll!RtlInitUnicodeStringEx
+  380  8130 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   81     0 [  3]       KERNELBASE!GetDriveTypeW
+    4     0 [  4]         ntdll!RtlUpcaseUnicodeChar
+  100     4 [  3]       KERNELBASE!GetDriveTypeW
+    7     0 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   25     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11    25 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+  128    40 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+  137    46 [  3]       KERNELBASE!GetDriveTypeW
+   36     0 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  235     0 [  5]           KERNELBASE!CreateFileInternal
+   52   235 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   43     0 [  5]           KERNELBASE!DeviceIoControl
+   62   278 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   23     0 [  5]           KERNELBASE!CloseHandle
+   66   301 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+    6     0 [  5]           KERNELBASE!_security_check_cookie
+   76   307 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  146   429 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+  153   435 [  3]       KERNELBASE!GetDriveTypeW
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  163   670 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtQueryVolumeInformationFile
+>> More than one level popped 3 -> 3
+  183   676 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtClose
+>> More than one level popped 3 -> 3
+  189   682 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+  199   688 [  3]       KERNELBASE!GetDriveTypeW
+  384  9017 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  389  9039 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  403  9061 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   18     0 [  3]       KERNELBASE!GetVolumeNameForRoot
+    7     0 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   25     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11    25 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   55    36 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+   70    42 [  3]       KERNELBASE!GetVolumeNameForRoot
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtDeviceIoControlFile
+>> More than one level popped 4 -> 4
+   36     6 [  4]         KERNELBASE!DeviceIoControl
+   12     0 [  5]           KERNELBASE!BaseSetLastNTError
+   42    18 [  4]         KERNELBASE!DeviceIoControl
+   73   102 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtClose
+>> More than one level popped 3 -> 3
+   79   108 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+   86   343 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   96   349 [  3]       KERNELBASE!GetVolumeNameForRoot
+  410  9506 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   36     0 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   41     0 [  4]         KERNELBASE!CreateFileInternal
+   68     0 [  5]           ntdll!RtlInitUnicodeStringEx
+   57    68 [  4]         KERNELBASE!CreateFileInternal
+   25     0 [  5]           ntdll!RtlDosPathNameToRelativeNtPathName_U_WithStatus
+  168    93 [  4]         KERNELBASE!CreateFileInternal
+   95     0 [  5]           ntdll!SbSelectProcedure
+  173   188 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!LdrpDispatchUserCallTarget
+    1     0 [  5]           KERNELBASE!AfpAdminDisconnect
+  190   200 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           ntdll!NtCreateFile
+>> More than one level popped 4 -> 4
+  196   206 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!RtlReleaseRelativeName
+  202   217 [  4]         KERNELBASE!CreateFileInternal
+   28     0 [  5]           ntdll!RtlFreeHeap
+>> No match on ret
+   28     0 [  5]           ntdll!RtlFreeHeap
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+   11     0 [  5]           ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  5]           ntdll!RtlpFreeHeap
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+    7     0 [  5]           ntdll!RtlFreeHeap
+  208   309 [  4]         KERNELBASE!CreateFileInternal
+   15     0 [  5]           ntdll!RtlFreeHeap
+  218   324 [  4]         KERNELBASE!CreateFileInternal
+   21     0 [  5]           ntdll!RtlSetLastWin32Error
+  225   345 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           KERNELBASE!_security_check_cookie
+  235   351 [  4]         KERNELBASE!CreateFileInternal
+   53   586 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtFsControlFile
+>> More than one level popped 4 -> 4
+   37     6 [  4]         KERNELBASE!DeviceIoControl
+   12     0 [  5]           KERNELBASE!BaseSetLastNTError
+   43    18 [  4]         KERNELBASE!DeviceIoControl
+   63   647 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   10     0 [  4]         KERNELBASE!CloseHandle
+   95     0 [  5]           ntdll!SbSelectProcedure
+   14    95 [  4]         KERNELBASE!CloseHandle
+   11     0 [  5]           ntdll!LdrpDispatchUserCallTarget
+    8     0 [  5]           KERNELBASE!SwitchedCloseHandleNoRaiseUMException_WinBLUE
+   16   114 [  4]         KERNELBASE!CloseHandle
+    6     0 [  5]           ntdll!NtClose
+>> More than one level popped 4 -> 4
+   23   120 [  4]         KERNELBASE!CloseHandle
+   67   790 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   77   796 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  481 10379 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   44     0 [  3]       ntdll!RtlInitUnicodeString
+  490 10423 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   44     0 [  3]       ntdll!RtlInitUnicodeStringEx
+  501 10467 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   57     0 [  3]       KERNELBASE!GetDriveTypeW
+    4     0 [  4]         ntdll!RtlUpcaseUnicodeChar
+   76     4 [  3]       KERNELBASE!GetDriveTypeW
+    7     0 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   25     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11    25 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+  104    40 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+  113    46 [  3]       KERNELBASE!GetDriveTypeW
+   36     0 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  235     0 [  5]           KERNELBASE!CreateFileInternal
+   52   235 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   43     0 [  5]           KERNELBASE!DeviceIoControl
+   62   278 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   23     0 [  5]           KERNELBASE!CloseHandle
+   66   301 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+    6     0 [  5]           KERNELBASE!_security_check_cookie
+   76   307 [  4]         KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  122   429 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+  129   435 [  3]       KERNELBASE!GetDriveTypeW
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  139   670 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtQueryVolumeInformationFile
+>> More than one level popped 3 -> 3
+  159   676 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtClose
+>> More than one level popped 3 -> 3
+  165   682 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+  175   688 [  3]       KERNELBASE!GetDriveTypeW
+  505 11330 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  510 11352 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  524 11374 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   18     0 [  3]       KERNELBASE!GetVolumeNameForRoot
+    7     0 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   25     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11    25 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   55    36 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+   70    42 [  3]       KERNELBASE!GetVolumeNameForRoot
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtDeviceIoControlFile
+>> More than one level popped 4 -> 4
+   36     6 [  4]         KERNELBASE!DeviceIoControl
+   12     0 [  5]           KERNELBASE!BaseSetLastNTError
+   42    18 [  4]         KERNELBASE!DeviceIoControl
+   73   102 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtClose
+>> More than one level popped 3 -> 3
+   79   108 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+   86   343 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   96   349 [  3]       KERNELBASE!GetVolumeNameForRoot
+  531 11819 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   36     0 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   41     0 [  4]         KERNELBASE!CreateFileInternal
+   44     0 [  5]           ntdll!RtlInitUnicodeStringEx
+   57    44 [  4]         KERNELBASE!CreateFileInternal
+   25     0 [  5]           ntdll!RtlDosPathNameToRelativeNtPathName_U_WithStatus
+  168    69 [  4]         KERNELBASE!CreateFileInternal
+   95     0 [  5]           ntdll!SbSelectProcedure
+  173   164 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!LdrpDispatchUserCallTarget
+    1     0 [  5]           KERNELBASE!AfpAdminDisconnect
+  190   176 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           ntdll!NtCreateFile
+>> More than one level popped 4 -> 4
+  196   182 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!RtlReleaseRelativeName
+  202   193 [  4]         KERNELBASE!CreateFileInternal
+   28     0 [  5]           ntdll!RtlFreeHeap
+>> No match on ret
+   28     0 [  5]           ntdll!RtlFreeHeap
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+   11     0 [  5]           ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  5]           ntdll!RtlpFreeHeap
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+    7     0 [  5]           ntdll!RtlFreeHeap
+  208   285 [  4]         KERNELBASE!CreateFileInternal
+   15     0 [  5]           ntdll!RtlFreeHeap
+  218   300 [  4]         KERNELBASE!CreateFileInternal
+   21     0 [  5]           ntdll!RtlSetLastWin32Error
+  225   321 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           KERNELBASE!_security_check_cookie
+  235   327 [  4]         KERNELBASE!CreateFileInternal
+   53   562 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtFsControlFile
+>> More than one level popped 4 -> 4
+   37     6 [  4]         KERNELBASE!DeviceIoControl
+   12     0 [  5]           KERNELBASE!BaseSetLastNTError
+   43    18 [  4]         KERNELBASE!DeviceIoControl
+   63   623 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+   10     0 [  4]         KERNELBASE!CloseHandle
+   95     0 [  5]           ntdll!SbSelectProcedure
+   14    95 [  4]         KERNELBASE!CloseHandle
+   11     0 [  5]           ntdll!LdrpDispatchUserCallTarget
+    8     0 [  5]           KERNELBASE!SwitchedCloseHandleNoRaiseUMException_WinBLUE
+   16   114 [  4]         KERNELBASE!CloseHandle
+    6     0 [  5]           ntdll!NtClose
+>> More than one level popped 4 -> 4
+   23   120 [  4]         KERNELBASE!CloseHandle
+   67   766 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   77   772 [  3]       KERNELBASE!BasepGetVolumeNameFromReparsePoint
+  592 12668 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   26     0 [  3]       ntdll!RtlInitUnicodeString
+  601 12694 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   26     0 [  3]       ntdll!RtlInitUnicodeStringEx
+  612 12720 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   39     0 [  3]       KERNELBASE!GetDriveTypeW
+    4     0 [  4]         ntdll!RtlUpcaseUnicodeChar
+   57     4 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         ntdll!NtQueryInformationProcess
+>> More than one level popped 3 -> 3
+   75    10 [  3]       KERNELBASE!GetDriveTypeW
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   85    16 [  3]       KERNELBASE!GetDriveTypeW
+  616 12821 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  621 12843 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   22     0 [  3]       ntdll!wcsicmp
+  636 12865 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   18     0 [  3]       KERNELBASE!GetVolumeNameForRoot
+    7     0 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   25     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11    25 [  4]         ntdll!RtlDosPathNameToNtPathName_U
+   43    36 [  3]       KERNELBASE!GetVolumeNameForRoot
+    8     0 [  4]         ntdll!toupper
+   52     0 [  5]           ntdll!RtlAnsiCharToUnicodeChar
+   15    52 [  4]         ntdll!toupper
+   19     0 [  5]           ntdll!RtlUpcaseUnicodeToMultiByteN
+   23    71 [  4]         ntdll!toupper
+   63   130 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtOpenFile
+>> More than one level popped 3 -> 3
+   78   136 [  3]       KERNELBASE!GetVolumeNameForRoot
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtDeviceIoControlFile
+>> More than one level popped 4 -> 4
+   39     6 [  4]         KERNELBASE!DeviceIoControl
+   81   181 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         ntdll!NtClose
+>> More than one level popped 3 -> 3
+   87   187 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+   99   422 [  3]       KERNELBASE!GetVolumeNameForRoot
+   22     0 [  4]         ntdll!RtlAllocateHeap
+   61     0 [  4]         ntdll!RtlpAllocateHeapInternal
+   50     0 [  5]           ntdll!RtlpAllocateHeap
+   88    50 [  4]         ntdll!RtlpAllocateHeapInternal
+  107   582 [  3]       KERNELBASE!GetVolumeNameForRoot
+    1     0 [  4]         KERNELBASE!memcpy
+   37     0 [  4]         ntdll!memcpy
+  117   620 [  3]       KERNELBASE!GetVolumeNameForRoot
+   22     0 [  4]         ntdll!RtlAllocateHeap
+   61     0 [  4]         ntdll!RtlpAllocateHeapInternal
+   50     0 [  5]           ntdll!RtlpAllocateHeap
+   88    50 [  4]         ntdll!RtlpAllocateHeapInternal
+  132   780 [  3]       KERNELBASE!GetVolumeNameForRoot
+    1     0 [  4]         KERNELBASE!memcpy
+   40     0 [  4]         ntdll!memcpy
+  137   821 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  144  1056 [  3]       KERNELBASE!GetVolumeNameForRoot
+   22     0 [  4]         ntdll!RtlAllocateHeap
+   61     0 [  4]         ntdll!RtlpAllocateHeapInternal
+   50     0 [  5]           ntdll!RtlpAllocateHeap
+   88    50 [  4]         ntdll!RtlpAllocateHeapInternal
+  161  1216 [  3]       KERNELBASE!GetVolumeNameForRoot
+   41     0 [  4]         KERNELBASE!CreateFileInternal
+   80     0 [  5]           ntdll!RtlInitUnicodeStringEx
+   58    80 [  4]         KERNELBASE!CreateFileInternal
+   25     0 [  5]           ntdll!RtlDosPathNameToRelativeNtPathName_U_WithStatus
+  168   105 [  4]         KERNELBASE!CreateFileInternal
+   95     0 [  5]           ntdll!SbSelectProcedure
+  173   200 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!LdrpDispatchUserCallTarget
+    1     0 [  5]           KERNELBASE!AfpAdminDisconnect
+  190   212 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           ntdll!NtCreateFile
+>> More than one level popped 4 -> 4
+  196   218 [  4]         KERNELBASE!CreateFileInternal
+   11     0 [  5]           ntdll!RtlReleaseRelativeName
+  202   229 [  4]         KERNELBASE!CreateFileInternal
+   28     0 [  5]           ntdll!RtlFreeHeap
+>> No match on ret
+   28     0 [  5]           ntdll!RtlFreeHeap
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22     0 [  5]           ntdll!RtlDebugFreeHeap
+   11     0 [  5]           ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  5]           ntdll!RtlpFreeHeap
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     0 [  5]           ntdll!RtlpFreeHeapInternal
+    7     0 [  5]           ntdll!RtlFreeHeap
+  208   321 [  4]         KERNELBASE!CreateFileInternal
+   15     0 [  5]           ntdll!RtlFreeHeap
+  218   336 [  4]         KERNELBASE!CreateFileInternal
+   21     0 [  5]           ntdll!RtlSetLastWin32Error
+  225   357 [  4]         KERNELBASE!CreateFileInternal
+    6     0 [  5]           KERNELBASE!_security_check_cookie
+  235   363 [  4]         KERNELBASE!CreateFileInternal
+  175  1814 [  3]       KERNELBASE!GetVolumeNameForRoot
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtDeviceIoControlFile
+>> More than one level popped 4 -> 4
+   42     6 [  4]         KERNELBASE!DeviceIoControl
+   12     0 [  5]           KERNELBASE!BaseSetLastNTError
+   48    18 [  4]         KERNELBASE!DeviceIoControl
+  188  1880 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  194  2115 [  3]       KERNELBASE!GetVolumeNameForRoot
+   22     0 [  4]         ntdll!RtlAllocateHeap
+   61     0 [  4]         ntdll!RtlpAllocateHeapInternal
+   50     0 [  5]           ntdll!RtlpAllocateHeap
+   88    50 [  4]         ntdll!RtlpAllocateHeapInternal
+  211  2275 [  3]       KERNELBASE!GetVolumeNameForRoot
+   24     0 [  4]         KERNELBASE!DeviceIoControl
+    6     0 [  5]           ntdll!NtDeviceIoControlFile
+>> More than one level popped 4 -> 4
+   39     6 [  4]         KERNELBASE!DeviceIoControl
+  216  2320 [  3]       KERNELBASE!GetVolumeNameForRoot
+   10     0 [  4]         KERNELBASE!CloseHandle
+   95     0 [  5]           ntdll!SbSelectProcedure
+   14    95 [  4]         KERNELBASE!CloseHandle
+   11     0 [  5]           ntdll!LdrpDispatchUserCallTarget
+    8     0 [  5]           KERNELBASE!SwitchedCloseHandleNoRaiseUMException_WinBLUE
+   16   114 [  4]         KERNELBASE!CloseHandle
+    6     0 [  5]           ntdll!NtClose
+>> More than one level popped 4 -> 4
+   23   120 [  4]         KERNELBASE!CloseHandle
+  221  2463 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  302  2698 [  3]       KERNELBASE!GetVolumeNameForRoot
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  308  2933 [  3]       KERNELBASE!GetVolumeNameForRoot
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+  318  2939 [  3]       KERNELBASE!GetVolumeNameForRoot
+  643 16122 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   21     0 [  3]       ntdll!RtlFreeHeap
+   41     0 [  4]         ntdll!RtlpFreeHeapInternal
+   46     0 [  5]           ntdll!RtlpFreeHeap
+   51    46 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   65    54 [  4]         ntdll!RtlpFreeHeapInternal
+   28   119 [  3]       ntdll!RtlFreeHeap
+  666 16269 [  2]     KERNELBASE!GetVolumePathNameInternalW
+    1     0 [  3]       KERNELBASE!memcpy
+   39     0 [  3]       ntdll!memcpy
+  673 16309 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   21     0 [  3]       ntdll!RtlFreeHeap
+   41     0 [  4]         ntdll!RtlpFreeHeapInternal
+   46     0 [  5]           ntdll!RtlpFreeHeap
+   51    46 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   65    54 [  4]         ntdll!RtlpFreeHeapInternal
+   28   119 [  3]       ntdll!RtlFreeHeap
+  678 16456 [  2]     KERNELBASE!GetVolumePathNameInternalW
+    6     0 [  3]       KERNELBASE!_security_check_cookie
+  688 16462 [  2]     KERNELBASE!GetVolumePathNameInternalW
+   64 23151 [  1]   cmd!MaybeVolumeLocalNTFS
+   39     0 [  2]     KERNELBASE!GetDriveTypeW
+    4     0 [  3]       ntdll!RtlUpcaseUnicodeChar
+   57     4 [  2]     KERNELBASE!GetDriveTypeW
+    6     0 [  3]       ntdll!NtQueryInformationProcess
+>> More than one level popped 2 -> 2
+   75    10 [  2]     KERNELBASE!GetDriveTypeW
+    6     0 [  3]       KERNELBASE!_security_check_cookie
+   85    16 [  2]     KERNELBASE!GetDriveTypeW
+   88 23252 [  1]   cmd!MaybeVolumeLocalNTFS
+   24     0 [  2]     KERNELBASE!GetVolumeInformationW
+    7     0 [  3]       ntdll!RtlDosPathNameToNtPathName_U
+    9     0 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   26     0 [  5]           ntdll!RtlInitUnicodeStringEx
+   20    26 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName_U
+  172     0 [  5]           ntdll!RtlpDosPathNameToRelativeNtPathName
+   25   198 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11   223 [  3]       ntdll!RtlDosPathNameToNtPathName_U
+   42   234 [  2]     KERNELBASE!GetVolumeInformationW
+   18     0 [  3]       ntdll!RtlSetThreadErrorMode
+   50   252 [  2]     KERNELBASE!GetVolumeInformationW
+    6     0 [  3]       ntdll!NtOpenFile
+>> More than one level popped 2 -> 2
+   55   258 [  2]     KERNELBASE!GetVolumeInformationW
+   14     0 [  3]       ntdll!RtlSetThreadErrorMode
+   61   272 [  2]     KERNELBASE!GetVolumeInformationW
+   19     0 [  3]       KERNELBASE!IsThisARootDirectory
+    6     0 [  4]         ntdll!NtQueryInformationFile
+>> More than one level popped 3 -> 3
+   33     6 [  3]       KERNELBASE!IsThisARootDirectory
+    6     0 [  4]         KERNELBASE!_security_check_cookie
+   39    12 [  3]       KERNELBASE!IsThisARootDirectory
+   68   323 [  2]     KERNELBASE!GetVolumeInformationW
+   21     0 [  3]       ntdll!RtlFreeHeap
+   41     0 [  4]         ntdll!RtlpFreeHeapInternal
+   46     0 [  5]           ntdll!RtlpFreeHeap
+   51    46 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   65    54 [  4]         ntdll!RtlpFreeHeapInternal
+   28   119 [  3]       ntdll!RtlFreeHeap
+   82   470 [  2]     KERNELBASE!GetVolumeInformationW
+   36     0 [  3]       KERNELBASE!GetVolumeInformationByHandleW
+   22     0 [  4]         ntdll!RtlAllocateHeap
+   61     0 [  4]         ntdll!RtlpAllocateHeapInternal
+   50     0 [  5]           ntdll!RtlpAllocateHeap
+   88    50 [  4]         ntdll!RtlpAllocateHeapInternal
+   53   160 [  3]       KERNELBASE!GetVolumeInformationByHandleW
+    6     0 [  4]         ntdll!NtQueryVolumeInformationFile
+>> More than one level popped 3 -> 3
+   70   166 [  3]       KERNELBASE!GetVolumeInformationByHandleW
+    1     0 [  4]         KERNELBASE!memcpy
+   10     0 [  4]         ntdll!memcpy
+   95   177 [  3]       KERNELBASE!GetVolumeInformationByHandleW
+   21     0 [  4]         ntdll!RtlFreeHeap
+   65     0 [  5]           ntdll!RtlpFreeHeapInternal
+   28    65 [  4]         ntdll!RtlFreeHeap
+>> No match on ret
+   28    65 [  4]         ntdll!RtlFreeHeap
+    5     0 [  4]         ntdll!RtlDebugFreeHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+    8    14 [  4]         ntdll!RtlDebugFreeHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   13    51 [  4]         ntdll!RtlDebugFreeHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+>> No match on ret
+   22    70 [  4]         ntdll!RtlDebugFreeHeap
+   11     0 [  4]         ntdll!RtlpFreeHeap
+>> No match on ret
+   11     0 [  4]         ntdll!RtlpFreeHeap
+   10     0 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+>> No match on ret
+   24     8 [  4]         ntdll!RtlpFreeHeapInternal
+    7     0 [  4]         ntdll!RtlFreeHeap
+  106   412 [  3]       KERNELBASE!GetVolumeInformationByHandleW
+   85   988 [  2]     KERNELBASE!GetVolumeInformationW
+    6     0 [  3]       ntdll!NtClose
+>> More than one level popped 2 -> 2
+   97   994 [  2]     KERNELBASE!GetVolumeInformationW
+   97 24343 [  1]   cmd!MaybeVolumeLocalNTFS
+    9     0 [  2]     msvcrt!wcsicmp
+   11     0 [  2]     msvcrt!wcsicmp_l
+    8     0 [  3]       msvcrt!_LocaleUpdate::_LocaleUpdate
+    4     0 [  4]         msvcrt!getptd_noexit
+    3     0 [  5]           KERNELBASE!GetLastError
+    7     3 [  4]         msvcrt!getptd_noexit
+   13     0 [  5]           KERNELBASE!FlsGetValue
+   12    16 [  4]         msvcrt!getptd_noexit
+   23     0 [  5]           ntdll!RtlSetLastWin32Error
+   17    39 [  4]         msvcrt!getptd_noexit
+   32    56 [  3]       msvcrt!_LocaleUpdate::_LocaleUpdate
+   22    88 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   33    33 [  3]       msvcrt!towlower_l
+   27   154 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   33    33 [  3]       msvcrt!towlower_l
+   36   220 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   33    33 [  3]       msvcrt!towlower_l
+   41   286 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   33    33 [  3]       msvcrt!towlower_l
+   50   352 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   33    33 [  3]       msvcrt!towlower_l
+   55   418 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   33    33 [  3]       msvcrt!towlower_l
+   64   484 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   33    33 [  3]       msvcrt!towlower_l
+   69   550 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   33    33 [  3]       msvcrt!towlower_l
+   78   616 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   30    33 [  3]       msvcrt!towlower_l
+   83   679 [  2]     msvcrt!wcsicmp_l
+    9     0 [  3]       msvcrt!towlower_l
+   13     0 [  4]         msvcrt!_LocaleUpdate::_LocaleUpdate
+   20    13 [  3]       msvcrt!towlower_l
+   20     0 [  4]         msvcrt!iswctype_l
+   30    33 [  3]       msvcrt!towlower_l
+  100   742 [  2]     msvcrt!wcsicmp_l
+  105 25194 [  1]   cmd!MaybeVolumeLocalNTFS
+    1     0 [  2]     msvcrt!operator delete[]
+    1     0 [  2]     msvcrt!operator delete
+    8     0 [  2]     msvcrt!free
+   21     0 [  3]       ntdll!RtlFreeHeap
+   41     0 [  4]         ntdll!RtlpFreeHeapInternal
+   46     0 [  5]           ntdll!RtlpFreeHeap
+   51    46 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   65    54 [  4]         ntdll!RtlpFreeHeapInternal
+   28   119 [  3]       ntdll!RtlFreeHeap
+   13   147 [  2]     msvcrt!free
+  111 25356 [  1]   cmd!MaybeVolumeLocalNTFS
+    1     0 [  2]     msvcrt!operator delete[]
+    1     0 [  2]     msvcrt!operator delete
+    8     0 [  2]     msvcrt!free
+   21     0 [  3]       ntdll!RtlFreeHeap
+   41     0 [  4]         ntdll!RtlpFreeHeapInternal
+   46     0 [  5]           ntdll!RtlpFreeHeap
+   51    46 [  4]         ntdll!RtlpFreeHeapInternal
+    8     0 [  5]           ntdll!RtlpHpStackLoggingEnabled
+   65    54 [  4]         ntdll!RtlpFreeHeapInternal
+   28   119 [  3]       ntdll!RtlFreeHeap
+   13   147 [  2]     msvcrt!free
+  116 25518 [  1]   cmd!MaybeVolumeLocalNTFS
+    6     0 [  2]     cmd!_security_check_cookie
+  125 25524 [  1]   cmd!MaybeVolumeLocalNTFS
+   30 52502 [  0] cmd!MakeHardLink
+   22     0 [  1]   KERNELBASE!CreateHardLinkW
+    7     0 [  2]     ntdll!RtlDosPathNameToNtPathName_U
+    9     0 [  3]       ntdll!RtlpDosPathNameToRelativeNtPathName_U
+  122     0 [  4]         ntdll!RtlInitUnicodeStringEx
+   20   122 [  3]       ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   43     0 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName
+  846     0 [  5]           ntdll!RtlGetFullPathName_Ustr
+   56   846 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName
+   25     0 [  5]           ntdll!RtlDetermineDosPathNameType_Ustr
+   79   871 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName
+   22     0 [  5]           ntdll!RtlAllocateHeap
+   88     0 [  5]           ntdll!RtlpAllocateHeapInternal
+>> No match on ret
+   88     0 [  5]           ntdll!RtlpAllocateHeapInternal
+   62     0 [  5]           ntdll!RtlDebugAllocateHeap
+>> No match on ret
+   62     0 [  5]           ntdll!RtlDebugAllocateHeap
+   10     0 [  5]           ntdll!RtlpAllocateHeap
+>> No match on ret
+   10     0 [  5]           ntdll!RtlpAllocateHeap
+   27     0 [  5]           ntdll!RtlpAllocateHeapInternal
+  104  1080 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName
+   10     0 [  5]           ntdll!memcpy
+  134  1090 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName
+   47     0 [  5]           ntdll!memcpy
+  169  1137 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName
+    6     0 [  5]           ntdll!_security_check_cookie
+  175  1143 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName
+   25  1440 [  3]       ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11  1465 [  2]     ntdll!RtlDosPathNameToNtPathName_U
+   41  1476 [  1]   KERNELBASE!CreateHardLinkW
+    6     0 [  2]     ntdll!NtOpenFile
+>> More than one level popped 1 -> 1
+   49  1482 [  1]   KERNELBASE!CreateHardLinkW
+    7     0 [  2]     ntdll!RtlDosPathNameToNtPathName_U
+    9     0 [  3]       ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   95     0 [  4]         ntdll!RtlInitUnicodeStringEx
+   20    95 [  3]       ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   43     0 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName
+  676     0 [  5]           ntdll!RtlGetFullPathName_Ustr
+   56   676 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName
+   25     0 [  5]           ntdll!RtlDetermineDosPathNameType_Ustr
+   79   701 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName
+   22     0 [  5]           ntdll!RtlAllocateHeap
+   88     0 [  5]           ntdll!RtlpAllocateHeapInternal
+>> No match on ret
+   88     0 [  5]           ntdll!RtlpAllocateHeapInternal
+   62     0 [  5]           ntdll!RtlDebugAllocateHeap
+>> No match on ret
+   62     0 [  5]           ntdll!RtlDebugAllocateHeap
+   10     0 [  5]           ntdll!RtlpAllocateHeap
+>> No match on ret
+   10     0 [  5]           ntdll!RtlpAllocateHeap
+   27     0 [  5]           ntdll!RtlpAllocateHeapInternal
+  104   910 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName
+   10     0 [  5]           ntdll!memcpy
+  134   920 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName
+   42     0 [  5]           ntdll!memcpy
+  169   962 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName
+    6     0 [  5]           ntdll!_security_check_cookie
+  175   968 [  4]         ntdll!RtlpDosPathNameToRelativeNtPathName
+   25  1238 [  3]       ntdll!RtlpDosPathNameToRelativeNtPathName_U
+   11  1263 [  2]     ntdll!RtlDosPathNameToNtPathName_U
+   58  2756 [  1]   KERNELBASE!CreateHardLinkW
+   22     0 [  2]     ntdll!RtlAllocateHeap
+   61     0 [  2]     ntdll!RtlpAllocateHeapInternal
+   40     0 [  3]       ntdll!RtlpAllocateHeap
+   17     0 [  4]         ntdll!RtlDebugAllocateHeap
+   12     0 [  5]           ntdll!RtlpCheckHeapSignature
+   41    12 [  4]         ntdll!RtlDebugAllocateHeap
+   10     0 [  5]           ntdll!RtlEnterCriticalSection
+   47    22 [  4]         ntdll!RtlDebugAllocateHeap
+   37     0 [  5]           ntdll!RtlpValidateHeap
+   51    59 [  4]         ntdll!RtlDebugAllocateHeap
+   22     0 [  5]           ntdll!RtlAllocateHeap
+   88     0 [  5]           ntdll!RtlpAllocateHeapInternal
+   56   169 [  4]         ntdll!RtlDebugAllocateHeap
+   14     0 [  5]           ntdll!RtlpValidateHeapHeaders
+   75   183 [  4]         ntdll!RtlDebugAllocateHeap
+    7     0 [  5]           ntdll!RtlpGetExtraStuffPointer
+  103   190 [  4]         ntdll!RtlDebugAllocateHeap
+   19     0 [  5]           ntdll!RtlLeaveCriticalSection
+  113   209 [  4]         ntdll!RtlDebugAllocateHeap
+   50   322 [  3]       ntdll!RtlpAllocateHeap
+   88   372 [  2]     ntdll!RtlpAllocateHeapInternal
+   67  3238 [  1]   KERNELBASE!CreateHardLinkW
+    1     0 [  2]     KERNELBASE!memmove
+   44     0 [  2]     ntdll!memcpy
+   78  3283 [  1]   KERNELBASE!CreateHardLinkW
+    6     0 [  2]     ntdll!NtSetInformationFile
+>> More than one level popped 1 -> 1
+   83  3289 [  1]   KERNELBASE!CreateHardLinkW
+    3     0 [  2]     KERNELBASE!BaseSetLastNTError
+  123     0 [  3]       ntdll!RtlNtStatusToDosError
+    7   123 [  2]     KERNELBASE!BaseSetLastNTError
+   21     0 [  3]       ntdll!RtlSetLastWin32Error
+    6     0 [  4]         ntdll!_security_check_cookie
+   23     6 [  3]       ntdll!RtlSetLastWin32Error
+   12   152 [  2]     KERNELBASE!BaseSetLastNTError
+   92  3453 [  1]   KERNELBASE!CreateHardLinkW
+   21     0 [  2]     ntdll!RtlFreeHeap
+   41     0 [  3]       ntdll!RtlpFreeHeapInternal
+   35     0 [  4]         ntdll!RtlpFreeHeap
+   74     0 [  5]           ntdll!RtlDebugFreeHeap
+   46    74 [  4]         ntdll!RtlpFreeHeap
+   51   120 [  3]       ntdll!RtlpFreeHeapInternal
+    8     0 [  4]         ntdll!RtlpHpStackLoggingEnabled
+   65   128 [  3]       ntdll!RtlpFreeHeapInternal
+   28   193 [  2]     ntdll!RtlFreeHeap
+   97  3674 [  1]   KERNELBASE!CreateHardLinkW
+    6     0 [  2]     ntdll!NtClose
+>> More than one level popped 1 -> 1
+  105  3680 [  1]   KERNELBASE!CreateHardLinkW
+   21     0 [  2]     ntdll!RtlFreeHeap
+   41     0 [  3]       ntdll!RtlpFreeHeapInternal
+   35     0 [  4]         ntdll!RtlpFreeHeap
+   74     0 [  5]           ntdll!RtlDebugFreeHeap
+   46    74 [  4]         ntdll!RtlpFreeHeap
+   51   120 [  3]       ntdll!RtlpFreeHeapInternal
+    8     0 [  4]         ntdll!RtlpHpStackLoggingEnabled
+   65   128 [  3]       ntdll!RtlpFreeHeapInternal
+   28   193 [  2]     ntdll!RtlFreeHeap
+  113  3901 [  1]   KERNELBASE!CreateHardLinkW
+   21     0 [  2]     ntdll!RtlFreeHeap
+   41     0 [  3]       ntdll!RtlpFreeHeapInternal
+   35     0 [  4]         ntdll!RtlpFreeHeap
+   74     0 [  5]           ntdll!RtlDebugFreeHeap
+   46    74 [  4]         ntdll!RtlpFreeHeap
+   51   120 [  3]       ntdll!RtlpFreeHeapInternal
+    8     0 [  4]         ntdll!RtlpHpStackLoggingEnabled
+   65   128 [  3]       ntdll!RtlpFreeHeapInternal
+   28   193 [  2]     ntdll!RtlFreeHeap
+  121  4122 [  1]   KERNELBASE!CreateHardLinkW
+   38 56745 [  0] cmd!MakeHardLink
