@@ -1,7 +1,7 @@
 # DrawMeATree
  DrawMeATree is a python tool developped to support the exploitation of the wt Windbg command, generating two graphic trees from the wt output. On the one hand, a "full tree" displaying all the calls made and on the other hand, a "filtered tree" version based on customizable features, resulting in an image similar to:
 
-![Filtered tree example](examples\Ex1-FilteredTree.png)
+![Filtered tree example](./examples/Ex1-FilteredTree.png)
 
 ## 🌟 Tool introduction
 #### The problematic: using wt without a headache 
