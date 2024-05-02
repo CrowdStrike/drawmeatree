@@ -405,7 +405,7 @@ if __name__ == "__main__":
         logger.info(parameters)
 
         wt_input = parse_input_file(p_args.input_file, p_args.depth_level)
-        logger.info("> Parsing of wt output...  [green3]OK[/]")
+        logger.info("> Parsing of wt output...      [green3]OK[/]")
 
         full_tree = generate_tree(wt_input, None)
         filtered_tree = generate_tree(wt_input, p_args.filters_words)
