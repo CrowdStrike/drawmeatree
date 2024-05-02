@@ -1,5 +1,5 @@
 # DrawMeATree
- DrawMeATree is a python tool developped to support the exploitation of the wt Windbg command, generating two graphic trees from the wt output. On the one hand, a "full tree" displaying all the calls made and on the other hand, a "filtered tree" version based on customizable features, resulting in an image similar to:
+ DrawMeATree is a python tool developped to support the exploitation of the Windbg wt command, generating two graphic trees from the wt's output. On the one hand, a "full tree" displaying all the calls made and on the other hand, a "filtered tree" based on customizable filters, resulting in an image similar to:
 
 ![Filtered tree example](./examples/Ex1-FilteredTree.png)
 
@@ -28,10 +28,10 @@ Tracing MyModule!myFunction to return address 00401137
     2     0 [  1]   MyModule!_RTC_CheckEsp
 54547 83782 [  0] MyModule!myFunction
 ```
-If this command is very useful to understand what a targeted function does, it is common to end up with a few thousands lines of results, that can't be understood nor exploited.
+While this command is very useful to understand what a targeted function does, it is common to end up with thousands lines of results, that can be hard to understand and use.
 
 #### Our solution: DrawMeATree
-Because an image is worth a thousand words, we developped a tool to visualize this precious amount of information. From a given file containing the result of a wt execution, DrawMeATree will render two graphic trees displaying the functions calls flow; one containing all of the calls made and another one with set up filters, to keep essential information accessible.
+Because an image is worth a thousand words, we developped a tool to visualize this precious amount of information. From a given file containing the output of wt's execution, DrawMeATree will render two graphic trees displaying the function calls flow; one containing all the calls made and a filtered version based on customizable filters, to keep essential information accessible.
 
 These resulting trees will help users to:
 - Synthetize a potential large amount of information to one simpler images; 
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 #### Step 1: Export the result of wt  
 a. From a breakpoint in the target function on Windbg, open a log file to store the command result:
 ```
-.logopen C:\\logfiles\\mylogs.txt”
+.logopen C:\logfiles\wt_output.txt
 ```
 b. Execute `wt` with your parameters
 
@@ -64,7 +64,7 @@ c. Close the logfile:
 #### Step 2: Use DrawMeATree to visualize the result 
 a. Run from a command line:
 ```python
-python draw.py C:\\logfiles\\mylogs.txt <optional arguments>
+python draw.py C:\logfiles\wt_output.txt <optional arguments>
 ```
 b. Go check the resulting trees!
 
@@ -92,7 +92,7 @@ optional arguments:
                         Adsd a list of custom filters. Ex: -a  cmp memcpy
                         
                         
-# Example 1: Draw a highly filtered tree and store results in an existing /results directory:
+# Example 1: Draw a highly filtered tree and store the tree in an existing "results" directory:
 python draw.py wt_output.txt -f high -o results
 
 # Example 2: Draw a lightly filtered tree and add custom filters to exclude CreateFile calls:
@@ -103,10 +103,10 @@ python draw.py wt_output.txt -c -d 3
 ```
 
 ## 🖥️ DrawMeATree's interface 
-At the execution, DrawMeATree's innterface will display:
-- the parameters of the trees generation
-- the steps of the live execution
-- result of the generation
+At the execution, DrawMeATree's interface will display:
+- The parameters of the trees' generation
+- The steps of the live execution
+- The success of the generation or errors if any
 
 ![DrawMeaTree interface](interface.png)
 
