@@ -83,8 +83,6 @@ def adding_to_module_list(function_module: str) -> None:
     if module_node:
         if module_node not in MODULES_LIST:
             MODULES_LIST.append(module_node)
-    else:
-        raise ValueError(f"Couldn't parse tree entry: {module_node}.")
 
 
 def adding_to_tree(
@@ -104,6 +102,7 @@ def adding_to_tree(
         curr_node (Node): the node just added to the tree
         current_level (int): the level of the node just added to the tree
     """
+
     if index == 0:
         if tree is None:  # If the very first line is being processed
             tree = Node(function)
@@ -114,13 +113,17 @@ def adding_to_tree(
     elif index == curr_lvl + 1:
         curr_node = Node(function, parent=curr_node)
         curr_lvl += 1
-    elif index == curr_lvl - 1:
-        curr_lvl -= 1
-        curr_node = curr_node.parent
+    # in case WinDbg skips  intermediary parent level
+    elif index < curr_lvl:
+        for i in range(curr_lvl - index):
+            curr_node = curr_node.parent
+        curr_lvl = index
     elif index == curr_lvl:
         curr_node = Node(function, parent=curr_node.parent)
     else:
-        raise ValueError(f"Couldn't add entry {function} to node{curr_node.name}.")
+        raise ValueError(
+            f"Couldn't add entry {curr_lvl, function} to node {index, curr_node.name}."
+        )
 
     return tree, curr_node, curr_lvl
 
@@ -140,7 +143,7 @@ def parse_input_file(wt_output_file: Path, filter_level: int) -> list:
 
     parsed_lines = []
     for line in data:
-        if re.search(r"\[  [0-" + str(filter_level) + "].*!.*$", line):
+        if re.search(r"\[  [0-" + str(filter_level) + "].*$", line):
             words = line.split()
             # Retreive function's name and depth
             index = int(words[3].replace("]", ""))
@@ -405,7 +408,7 @@ if __name__ == "__main__":
         logger.info(parameters)
 
         wt_input = parse_input_file(p_args.input_file, p_args.depth_level)
-        logger.info("> Parsing of wt output...      [green3]OK[/]")
+        logger.info("> Parsing of wt output...  [green3]OK[/]")
 
         full_tree = generate_tree(wt_input, None)
         filtered_tree = generate_tree(wt_input, p_args.filters_words)
