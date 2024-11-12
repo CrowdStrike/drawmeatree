@@ -42,7 +42,7 @@ These resulting trees will help users to:
 
 ## ⚓ Installation
 1. Download the last version of GraphViz from: https://graphviz.org/download/ and make sure to select "add to PATH" while installing
-2. Install python (<= 3.6) and install requirements using:
+2. Install python (> 3.8) and install requirements using:
 ```python
 pip install -r requirements.txt
 ```
